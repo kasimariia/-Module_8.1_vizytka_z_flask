@@ -7,7 +7,7 @@ def greeting():
     return render_template("my_page.html")
 
 @app.route('/contact', methods=['GET'])
-def kontakty():
+def contact():
     return render_template("contacts.html")
 
 if __name__ == '__main__':
